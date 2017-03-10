@@ -1,0 +1,75 @@
+<html> 
+<head> 
+<title> 
+ jarren's web.com
+</title>
+ <style>
+
+</style>
+<header>
+<a href="en.wikipedia.org/wiki/Video_game" onclick="return banner()">
+<li class="listitem">VIDEO GAMES</li>
+<a/>
+<a href="en.wikipedia.org/wiki/Video_game_console" onclick="return banner()">
+<li class="listitem">CONSOLE</li>
+</a>
+<a href="en.wikipedia.org/wiki/Game_controller" onclick="return banner()">
+<li class="listitem">CONTROLLER</li>
+</a>
+<link type="text/css" rel="stylesheet" href="main.css" />
+</header>
+<script>
+function banner(){ 
+var text = confirm("Are you sure?"); 
+return text; 
+}
+function answer(){ 
+var radio = document.getElementsByName("trivia"); 
+var selection = false; 
+var message = "";
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "Microsoft" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:#66a3ff'>Good job!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:#ffff4d'>Whoops!</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer
+</script>
+</head>  
+<body> 
+<P>Madden is my favorite video game. This is a gameplay!</P>
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=34AwWuhlfls" 
+frameborder="0" allowfullscreen>
+</iframe> 
+<h1> video games </h1>
+<p> Video games are <b>the best</b>. I <i>love</i> them. <u> They can teach you strategy, as well as many other things. They also help with hand-eye coordination</u>.
+</p>
+<div class="wrap-list">
+<ol>
+ <span class="wrap-text"><li> Because video games help with hand-eye coordination, some surgeons play them as part of their job.</li><li> There are professional video game sporting events.</li><li> video games are <b>AWESOME!!!<b/></li></span>
+</ol>
+</div>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/4b/06/a6/4b06a6535d10d00234928d3e9f1058a4.jpg"/> 
+<h2> Video game questionare!</h2>
+<p class="paragraph">What company is XBOX owned by?</p>
+<form>
+<div id="response"> </div>
+<input type="button" id="submit" value="Click Here" onclick="answer()">
+<div class="wrap-trivia"> 
+<input type="radio" name="trivia" value="Apple">Apple<BR>
+<input type="radio" name="trivia" value="Microsoft">Microsoft<BR>
+<input type="radio" name="trivia" value="PlayStation">PlayStation<BR>
+<input type="radio" name="trivia" value="None">None of the above<BR>
+</div>
+</form>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/29/ce/2b/29ce2b7ac9f4cedd7def62cf93990127.gif"/>
+<hr>
+<footer><b>Golden Jarren Berrett</b><a href="http://www.miniclip.com/games/en/">My Favorite Website!</footer>
+</body> 
+</html>

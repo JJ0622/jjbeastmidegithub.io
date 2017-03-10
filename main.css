@@ -1,0 +1,74 @@
+.listitem { 
+color:green; 
+font-size:24px;
+}
+.paragraph {
+color:orange;
+font-size:36px;
+}
+header{
+margin-bottom:50px;
+}
+footer {
+height:60px;
+width:100%;
+border:5px solid #59e5a1;
+background-color:#e2b11b;
+color:white;
+font-size:45px
+}
+body {
+background-color: #0f2c96
+}
+.wrap-trivia {
+height:80px;
+width:150px;
+border:10px double #f43535;
+}
+.wrap-list {
+height:200px;
+width:200px;
+border:10px dashed #196b07;
+}
+.wrap-text {
+color: #b211af;
+font-size:1.0em;
+}
+.scroll {
+background-image:url(https://cdn.pixabay.com/photo/2012/04/15/20/12/happy-35164_960_720.png);
+background-color:yellow;
+}
+#one {
+display: inline-block; 
+height:20px;
+width:300px;
+color:#00a813;
+background-color: white
+}
+#two {
+display: inline-block;
+height2:0px;
+width:300px;
+color:#00a813;
+background-color: white
+}
+#three {
+display: inline-block;
+height:20px;
+width:300px;
+color:#00a813;
+background-color: white
+}
+#four {
+color:#00a813;
+font-size:50px
+}
+.titles{
+	color:orange;
+	font-size:40;
+}
+.sponsor{
+	color:orange;
+	background-color:green; 
+    font-size:30; 
+}
